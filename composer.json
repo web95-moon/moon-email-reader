@@ -15,7 +15,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Moon\\Email\\ReadEmailServiceProvide"
+                "Moon\\ReadEmail\\ReadEmailServiceProvider"
             ]
         }
     }

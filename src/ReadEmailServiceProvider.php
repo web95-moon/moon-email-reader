@@ -3,9 +3,8 @@
 namespace moon\reademail;
 
 use Illuminate\Support\Facades\App;
-use Illuminate\Support\ServiceProvider;
 
-class ReadEmailServiceProvider extends ServiceProvider
+class ReadEmailServiceProvider extends \Illuminate\Support\ServiceProvider
 {
 
 	public function boot()

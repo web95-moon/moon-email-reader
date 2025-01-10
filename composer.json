@@ -4,7 +4,7 @@
     "type": "library",
     "autoload": {
         "psr-4": {
-            "Moon\\ReadEmail\\": "src/"
+            "moon\\reademail\\": "src/"
         }
     },
     "require": {
@@ -15,7 +15,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Moon\\ReadEmail\\ReadEmailServiceProvider"
+                "moon\\reademail\\ReadEmailServiceProvider"
             ]
         }
     }

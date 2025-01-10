@@ -1,6 +1,6 @@
 <?php
 
-namespace Moon\Reademail;
+namespace moon\reademail;
 
 use App\Models\User;
 use Exception;

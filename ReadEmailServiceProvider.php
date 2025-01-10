@@ -1,6 +1,6 @@
 <?php
 
-namespace Moon\Reademail;
+namespace moon\reademail;
 
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\ServiceProvider;

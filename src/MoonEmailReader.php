@@ -54,7 +54,7 @@ class MoonEmailReader
                     return $this->fail([], 'Invalid JSON');
                 }
 
-                if ($request['subscription'] !== config('moonemailread.EMAIL_READ_SUBSCRIPTION_NAME')) {
+                if ($request['subscription'] !== config('moonemailreader.EMAIL_READ_SUBSCRIPTION_NAME')) {
                     return $this->fail([], 'Not subscribed to defined subscription');
                 }
 

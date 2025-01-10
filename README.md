@@ -18,6 +18,17 @@ php artisan vendor:publish --provider="moon\reademail\ReadEmailServiceProvider"
 ```php
 use moon\reademail\MoonEmailReader;
 
+
 $email = new MoonEmailReader($request->all());
 $content = $email->getEmail();
 ```
+
+Note: In request provide webhook response to the above class
+
+Send Watch request
+```php
+$moonEmailReader = new MoonEmailReader([]);
+$topic = config('moonemailreader.EMAIL_READ_TOPIC_NAME');
+$moonEmailReader->setWatch($topic);
+```
+
